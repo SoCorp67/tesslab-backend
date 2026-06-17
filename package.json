@@ -2,11 +2,11 @@
   "name": "tesslab-backend",
   "version": "1.0.0",
   "description": "Backend API pour la plateforme TESSLAB",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.20.0",
